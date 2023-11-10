@@ -1,0 +1,129 @@
+/* general styles */
+body
+{
+    background: url('../images/paris22.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 , p
+{
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    box-sizing: border-box;
+}
+
+/* Login */
+#login
+{
+    width: 700px;
+    margin: 150px auto;
+    position: relative;
+}
+
+#login .bg
+{
+    width: 700px;
+    height: 260px;
+    background-color: rgba(32, 32, 32, 0.7);
+    border-radius: 7px;
+    position: relative;
+}
+#login .bg .bg-content
+{
+    width: 40%;
+    height: 50%;
+    float: right;
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    right: -10px;
+    line-height: 26px;
+    margin: auto;
+}
+#login .bg-content h2
+{
+    margin-bottom: 10px;
+}
+#login .login-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0 15px;
+    margin-top: 35px;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+#login .login-btn:hover
+{
+    background-color: #fff;
+    color: #000;
+    transition: 0.25s;
+}
+
+/* Sign Up */
+#login .form
+{
+    background-color: #fff;
+    width: 380px;
+    height: 340px;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    padding: 30px;
+}
+#login .form h2
+{
+    color: rgb(43, 43, 151);
+    margin-bottom: 10px;
+}
+#login .form .input
+{
+    border: none;
+    border-bottom: 2px solid #ccc;
+    display: block;
+    margin: 35px 0;
+    width: 100%;
+    padding: 4px 0;
+    transition: 0.25s;
+}
+#login .form .input:hover
+{
+    border-bottom: 2px solid rgb(170, 170, 170);
+    transition: 0.25s;
+}
+#login .form .input:focus
+{
+    outline: none;
+}
+#login .form .submit-btn
+{
+    background-color: rgb(43, 43, 151);
+    border: none;
+    border: 1px solid rgb(43, 43, 151);
+    padding: 7px 12px;
+    color: #fff;
+    border-radius: 5px;
+    float: right;
+    transition: 0.25s;
+}
+#login .form .submit-btn:hover
+{
+    background-color: rgb(60, 60, 146);
+    border: 1px solid rgb(60, 60, 146);
+    transition: 0.25s;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 1px #ccc;
+}
